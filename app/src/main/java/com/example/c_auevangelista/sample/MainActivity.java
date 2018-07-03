@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView.LayoutManager layoutManager = new GridLayoutManager(context, 2);
         mRecyclerView.setLayoutManager(layoutManager);
 
-        //Testing5
+        //Testing6
 
     }
 
