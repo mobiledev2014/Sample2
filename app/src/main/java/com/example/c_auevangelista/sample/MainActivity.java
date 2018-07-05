@@ -28,7 +28,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
-//bert
+
     public static final String BASE_URL = "https://jsonplaceholder.typicode.com/";
 
     private RecyclerView mRecyclerView;
@@ -65,6 +65,8 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setHasFixedSize(true);
         RecyclerView.LayoutManager layoutManager = new GridLayoutManager(context, 2);
         mRecyclerView.setLayoutManager(layoutManager);
+
+        //Testing=7
 
 //Testing
     }
